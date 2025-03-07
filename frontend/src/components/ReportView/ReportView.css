@@ -1,0 +1,140 @@
+.report-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .report-header {
+    margin-bottom: 2rem;
+  }
+  
+  .report-meta h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .report-meta p {
+    margin: 0.5rem 0;
+    color: var(--text-muted);
+  }
+  
+  .report-meta a {
+    color: var(--primary-light);
+  }
+  
+  .breakdown-section {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .breakdown-column {
+    flex: 1;
+  }
+  
+  .breakdown-column h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--text-muted);
+  }
+  
+  .breakdown-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .breakdown-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .breakdown-label {
+    width: 100px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .breakdown-bar-container {
+    flex: 1;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .breakdown-bar {
+    height: 100%;
+    background-color: var(--primary);
+    border-radius: 6px;
+  }
+  
+  .breakdown-bar.error {
+    background-color: var(--error);
+  }
+  
+  .breakdown-bar.warning {
+    background-color: var(--warning);
+  }
+  
+  .breakdown-bar.success {
+    background-color: var(--success);
+  }
+  
+  .breakdown-count {
+    width: 30px;
+    text-align: right;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .report-issues {
+    margin-top: 2rem;
+  }
+  
+  .issue-item {
+    border-left-width: 4px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .issue-item.error {
+    border-left-color: var(--error);
+  }
+  
+  .issue-item.warning {
+    border-left-color: var(--warning);
+  }
+  
+  .issue-item.success {
+    border-left-color: var(--success);
+  }
+  
+  .issue-screenshot {
+    margin-top: 1.5rem;
+  }
+  
+  .issue-screenshot h5 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+  }
+  
+  .issue-screenshot img {
+    max-width: 100%;
+    border-radius: var(--border-radius);
+    border: 1px solid #444;
+  }
+  
+  .report-recommendations {
+    margin-top: 2rem;
+  }
+  
+  .recommendations-list {
+    padding-left: 1.5rem;
+  }
+  
+  .recommendations-list li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+  }
