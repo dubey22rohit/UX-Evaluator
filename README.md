@@ -29,7 +29,7 @@ This AI-powered UX agent can:
 
 - **Backend**: Python with FastAPI
 - **Frontend**: React.js
-- **AI/ML**: Claude 3.7 for analysis, OpenAI's GPT-4V for visual analysis
+- **AI/ML**: Gemini AI
 - **Web Crawling**: Playwright
 - **Database**: MongoDB for storing evaluation results
 - **Reporting**: PDF generation with ReportLab
@@ -45,11 +45,12 @@ This AI-powered UX agent can:
 ### Installation
 
 1. Clone the repository
-2. Install backend dependencies: `pip install -r requirements.txt`
-3. Install frontend dependencies: `cd frontend && npm install`
-4. Set up environment variables (see `.env.example`)
-5. Start the backend server: `python app.py`
-6. Start the frontend development server: `cd frontend && npm start`
+2. Create a python env: `python3 -m venv env`
+3. Install backend dependencies: `pip install -r requirements.txt`
+4. Install frontend dependencies: `cd frontend && npm install`
+5. Set up environment variables (see `.env.example`)
+6. Start the backend server: `python app.py`
+7. Start the frontend development server: `cd frontend && npm start`
 
 ## Usage
 
@@ -61,21 +62,3 @@ This AI-powered UX agent can:
 ## License
 
 MIT
-
-## Run The Project
-
-1. Python
-
-   1.1) python3 -m venv env
-
-   1.2) pip3 install -r requirements.txt
-
-   1.3) uvicorn app:app --host 0.0.0.0 --port 8000 --reload
-
-2. React
-
-   2.1) cd frontend
-
-   2.2) npm install
-
-   2.3) npm run dev
